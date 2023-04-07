@@ -276,7 +276,7 @@
 }
 
 .Post {
-  background-image: url("/Certifie.io/Assets/Images/Post.png");
+  background-image: url("/Assets/Images/Post.png");
   height: auto;
   width: 80%;
   background-size: cover;
@@ -292,7 +292,7 @@
 }
 
 .Fig {
-  background-image: url("/Certifie.io/Assets/Images/Fig1.png");
+  background-image: url("/Assets/Images/Fig1.png");
   height: 59px;
   width: 197px;
   background-size: cover;
