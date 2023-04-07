@@ -1,0 +1,538 @@
+.FlexContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.Header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 84%;
+  margin-top: 8%;
+  margin-right: 8%;
+  margin-left: 8%;
+}
+
+.ButtonHeader {
+  background-color: white;
+  border-color: rgb(55, 105, 252);
+  border: solid;
+  border-radius: 6px;
+  border-width: 1px;
+  height: 35px;
+  width: 100px;
+  color: rgb(55, 105, 252);
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  text-align: center;
+  justify-content: center;
+}
+
+.MainCopy {
+  color: rgb(141, 141, 141);
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  text-align: center;
+}
+
+.MainCopy2 {
+  color: rgb(0, 102, 255);
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  text-align: center;
+  line-height: 130%;
+}
+
+.MainCopy3 {
+  color: rgb(141, 141, 141);
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  text-align: center;
+  line-height: 130%;
+}
+
+.BodyCopy {
+  color: rgb(70, 70, 70);
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  text-align: center;
+}
+
+.BodyCopy2 {
+  color: rgb(70, 70, 70);
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  line-height: 130%;
+}
+
+.BodyCopy3 {
+  color: rgb(70, 70, 70);
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+}
+
+.ButtonBody {
+  background: linear-gradient(265.62deg, #0066ff -9.44%, #00eac1 136.35%);
+  border: none;
+  border-radius: 6px;
+  height: 56px;
+  width: 160px;
+  color: white;
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  justify-content: center;
+  text-align: center;
+}
+
+.ButtonBody2 {
+  background: linear-gradient(265.62deg, #0066ff -9.44%, #00eac1 136.35%);
+  border: none;
+  border-radius: 6px;
+  height: 56px;
+  width: 220px;
+  color: white;
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  justify-content: center;
+  text-align: center;
+}
+
+.CardBox1 {
+  background-color: rgb(255, 255, 255);
+
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 84%;
+  max-width: 370px;
+  max-height: 137px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.CardBox11 {
+  background-color: rgb(255, 255, 255);
+
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 84%;
+  height: auto;
+  max-width: 370px;
+  max-height: 137px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 20px;
+}
+
+.CardBox2 {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 84%;
+  max-width: 315px;
+  height: auto;
+  margin-top: 25px;
+}
+
+.CardMain {
+  color: rgb(0, 102, 255);
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.CardMain2 {
+  color: rgb(0, 102, 255);
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.CardBody {
+  color: rgb(70, 70, 70);
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+}
+
+.CardBody2 {
+  color: rgb(70, 70, 70);
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  margin-left: 20px;
+}
+
+.CardLine {
+  background-color: rgb(202, 202, 202);
+  display: flex;
+  flex-direction: column;
+  height: 1px;
+  margin-top: 30px;
+  align-items: center;
+  width: 289px;
+}
+
+.CardLine2 {
+  background-color: rgb(202, 202, 202);
+  display: flex;
+  flex-direction: column;
+  height: 1px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  align-items: center;
+  width: 100%;
+}
+
+.CardName {
+  color: rgb(105, 105, 105);
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.CardName2 {
+  color: rgb(0, 102, 255);
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 140%;
+}
+
+.CompanyName {
+  color: rgb(61, 61, 61);
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  margin-top: 16px;
+}
+
+.BG1 {
+  background-color: rgb(247, 249, 250);
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+}
+
+.BG2 {
+  background-color: rgb(247, 249, 250);
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+}
+
+.BG3 {
+  background-color: rgb(247, 249, 250);
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+}
+
+.BG4 {
+  background-color: rgb(3, 10, 55);
+  display: flex;
+  flex-direction: column;
+  height: 508px;
+  width: 100%;
+}
+
+.Post {
+  background-image: url("/Certifie.io/Assets/Images/Post.png");
+  height: auto;
+  width: 80%;
+  background-size: cover;
+}
+
+.PostBody {
+  color: rgb(70, 70, 70);
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+}
+
+.Fig {
+  background-image: url("/Certifie.io/Assets/Images/Fig1.png");
+  height: 59px;
+  width: 197px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.FigCopy {
+  color: rgb(255, 255, 255);
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.FaqBody {
+  color: rgb(70, 70, 70);
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  margin-top: 16px;
+}
+
+.Info {
+  color: rgb(70, 70, 70);
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  margin-left: 30px;
+  margin-right: 30px;
+  line-height: 140%;
+}
+
+.LBox1CT {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.LBox1Text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.LBox1Button {
+  display: flex;
+  text-align: center;
+  justify-content: flex-start;
+  margin-top: 10%;
+}
+
+.LBox1Image {
+  display: flex;
+  justify-content: center;
+}
+
+.LBox2CT {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15%;
+}
+
+.LBox2Text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.LBox2SubText1 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3%;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.LBox2SubText2 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3%;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.LBox2SubText3 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3%;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.LBox2SubText4 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3%;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.LBox2SubText5 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3%;
+  margin-left: 50px;
+  margin-right: 50px;
+  max-width: 394px;
+}
+
+.LBox3CT {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+}
+
+.LBox3Card {
+  width: 88%;
+}
+
+.LBox3CardTitle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.LBox3CardText {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4%;
+}
+
+.LBox4CT {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 48px;
+}
+
+.LBox5CT {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.LBox5Comp {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+  margin-top: 30px;
+}
+
+.CardlineCT {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.LBox6CT {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.LBox6ContentCT {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 84%;
+}
+
+.LBox6Fig {
+  display: flex;
+  flex-direction: column;
+}
+
+.LBox6AllText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 660px;
+  margin-top: 48px;
+}
+
+.LBox7CT {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 60px;
+  width: 84%;
+}
+
+.LBox7Title {
+  display: flex;
+  flex-direction: column;
+}
+
+.LBox7Text {
+  display: flex;
+  flex-direction: column;
+}
+
+.LBox7AllText {
+  display: flex;
+  flex-direction: column;
+}
+
+.CardLine2CT {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.HeadLogoCT {
+  display: flex;
+  width: 104px;
+  height: 24px;
+}
